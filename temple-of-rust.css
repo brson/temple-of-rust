@@ -1,0 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Mono:700);
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 24pt;
+    font-family: 'Fira Mono';
+}
+
+img {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}

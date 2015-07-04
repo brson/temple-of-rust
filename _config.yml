@@ -1,0 +1,32 @@
+# This is the default format. 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:categories/:year/:month/:day/:title 
+
+exclude: [".rvmrc", ".rbenv-version"]
+highlighter: pygments
+markdown: redcarpet
+paginate: 1000
+paginate_path: "/blog/page:num/"
+
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+title : Temple of Rust
+tagline:
+author :
+  name :
+  email :
+  github : brson
+  twitter :
+  feedburner :
+
+# The production_url is only used when full-domain names are needed
+# such as sitemap.txt 
+# Most places will/should use BASE_PATH to make the urls
+#
+# If you have set a CNAME (pages.github.com) set your custom domain here.
+# Else if you are pushing to username.github.com, replace with your username.
+# Finally if you are pushing to a GitHub project page, include the project name at the end.
+#
+production_url : http://brson.github.io/temple-of-rust
+
